@@ -1,0 +1,65 @@
+/* CSS files add styling rules to your content */
+
+body {
+
+  margin: 2em;
+  background-image: url("https://cdn.glitch.com/afa469bc-6879-4ce5-b99f-37f5f76e4275%2F77578f1942b2800.jpg?v=1561384901900");
+  background-size: cover;
+  text-align: center
+}
+html{height: 100%}
+h1 {
+
+  color: black;
+  font-family: 'Courgette', cursive;
+  font-size:50px;
+}
+#welcome { height:200px;
+  widght:200px;
+border: thick solid white ;
+  border-radius:1000px;
+
+}
+#button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline overline;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.ob {
+  background-color: skyblue;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: underline overline;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h2 {color:black;
+font-family: 'Indie Flower', cursive;
+font-size: 40px}
+h3 {color:black;
+font-family: 'Stylish', sans-serif;}
+
+.hoverWrapper:hover #hoverShow1 {
+ display: block;
+}
+
+.hoverWrapper #hoverShow1 {
+ display: none;
+ position: absolute;
+ background-color: #ff0000;
+ width: 250px;
+ height: 250px;
+ left: 200px;
+ top: 100px;
+}
